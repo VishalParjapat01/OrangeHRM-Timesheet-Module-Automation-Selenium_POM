@@ -8,6 +8,8 @@ Automation Testing (End-to-End)
 ### Application Under Test
 OrangeHRM Demo: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
 
+```
+
 Directory Structure
 css
 Copy code
@@ -43,6 +45,9 @@ OrangeHRM-Timesheet-Automation/
 ├── extent-reports/
 ├── pom.xml
 └── README.md
+
+```
+
 ### Features
 Timesheet Management: Automates the process of entering and submitting timesheets.
 Attendance Recording: Automates attendance entry workflows.
