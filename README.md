@@ -6,7 +6,7 @@ This project automates the Timesheet module of the OrangeHRM application using S
 Automation Testing (End-to-End)
 
 ### Application Under Test
-OrangeHRM Demo: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+<br>OrangeHRM Demo: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
 
 ```
 
@@ -49,57 +49,63 @@ OrangeHRM-Timesheet-Automation/
 ```
 
 ### Features
-Timesheet Management: Automates the process of entering and submitting timesheets.
-Attendance Recording: Automates attendance entry workflows.
-Report Generation: Automates the generation and validation of various reports.
-Project Information Management: Automates the management of project-related information.
-Assertions and Validations: Incorporates assertions to validate expected outcomes at each step.
-Screenshot Capture: Captures screenshots at specified steps for documentation and debugging.
-Extent Reports: Generates comprehensive test execution reports.
-Design Decisions
-Page Object Model (POM): Implemented to enhance code modularity and reusability.
-TestNG Framework: Utilized for test execution management and reporting.
-Maven Integration: Employed for dependency management and build automation.
-Configuration Management: Application URLs and other configurable parameters are managed via property files.
-Explicit Waits: Applied to handle dynamic web elements effectively.
-Assertions: Used to validate test outcomes and ensure reliability.
-Screenshot Capture: Implemented to capture screenshots upon test failures for debugging purposes.
-Extent Reports: Integrated to provide detailed and visually appealing test reports.
-Installation & Getting Started
-Clone the Repository:
+<br>Timesheet Management: Automates the process of entering and submitting timesheets.
+<br>Attendance Recording: Automates attendance entry workflows.
+<br>Report Generation: Automates the generation and validation of various reports.
+<br>Project Information Management: Automates the management of project-related information.
+<br>Assertions and Validations: Incorporates assertions to validate expected outcomes at each step.
+<br>Screenshot Capture: Captures screenshots at specified steps for documentation and debugging.
+<br>Extent Reports: Generates comprehensive test execution reports.
+<br>Design Decisions
+<br>Page Object Model (POM): Implemented to enhance code modularity and reusability.
+<br>TestNG Framework: Utilized for test execution management and reporting.
+<br>Maven Integration: Employed for dependency management and build automation.
+<br>Configuration Management: Application URLs and other configurable parameters are managed via property files.
+<br>Explicit Waits: Applied to handle dynamic web elements effectively.
+<br>Assertions: Used to validate test outcomes and ensure reliability.
+<br>Screenshot Capture: Implemented to capture screenshots upon test failures for debugging purposes.
+<br>Extent Reports: Integrated to provide detailed and visually appealing test reports.
+<br>Installation & Getting Started
+<br>Clone the Repository:
 
-bash
-Copy code
-git clone https://github.com/YourUsername/OrangeHRM-Timesheet-Automation.git
-Navigate to the Project Directory:
 
-bash
-Copy code
-cd OrangeHRM-Timesheet-Automation
-Install Dependencies: Ensure that Maven is installed on your system. Then, execute:
 
-bash
-Copy code
-mvn clean install
-Configure Application Properties: Update the config.properties file located in src/main/resources with the appropriate URL and credentials for the OrangeHRM application.
+<br>bash
+<br>Copy code
+<br>git clone https://github.com/VishalParjapat01/OrangeHRM-Timesheet-Automation.git
+<br>Navigate to the Project Directory:
 
-Execute Tests: Run the test suite using Maven:
+<br>bash
+<br>Copy code
+<br>cd OrangeHRM-Timesheet-Automation
+<br>Install Dependencies: Ensure that Maven is installed on your system. Then, execute:
 
-bash
-Copy code
-mvn test
-View Reports: After execution, access the generated Extent Reports located in the extent-reports directory for detailed insights.
+<br>bash
+<br>Copy code
+<br>mvn clean install
+<br>Configure Application Properties: Update the config.properties file located in src/main/resources with the appropriate URL and credentials for the OrangeHRM application.
+
+<br>Execute Tests: Run the test suite using Maven:
+
+<br>bash
+<br>Copy code
+<br>mvn test
+<br>View Reports: After execution, access the generated Extent Reports located in the extent-reports directory for detailed insights.
+
 
 ### Technology Stack
-Selenium WebDriver: For browser automation.
-Java: Programming language for scripting.
-TestNG: Testing framework for managing test cases.
-Maven: Build automation and dependency management tool.
-Extent Reports: For generating detailed test execution reports.
-Code Structure and Testing
-Page Objects: Each web page is represented by a corresponding class in the pages package, encapsulating the elements and actions pertinent to that page.
-Test Classes: Located in the tests package, these classes contain test methods that execute various user scenarios by interacting with the page objects.
-Utilities: The utils package includes helper classes for configuration reading, WebDriver management, and common test utilities.
-TestNG Configuration: The testng.xml file defines the test suite and facilitates the execution of test classes.
+<br>Selenium WebDriver: For browser automation.
+<br>Java: Programming language for scripting.
+<br>TestNG: Testing framework for managing test cases.
+<br>Maven: Build automation and dependency management tool.
+<br>Extent Reports: For generating detailed test execution reports.
+<br>Code Structure and Testing
+<br>Page Objects: Each web page is represented by a corresponding class in the pages package, encapsulating the elements and actions pertinent to that page.
+<br>Test Classes: Located in the tests package, these classes contain test methods that execute various user scenarios by interacting with the page objects.
+<br>Utilities: The utils package includes helper classes for configuration reading, WebDriver management, and common test utilities.
+<br>TestNG Configuration: The testng.xml file defines the test suite and facilitates the execution of test classes.
+
 ### Commenting
 The codebase is thoroughly commented to elucidate the functionality of classes, methods, and critical code segments, enhancing readability and maintainability.
+
+
